@@ -2,14 +2,14 @@
 
 Web application created using node.js with PostgreSQL database to get student results.
 
-##How to run the project
+## How to run the project
 
-###Prerequisites
+### Prerequisites
 
 1. You should be having a postgresql database setup in some server, as we will need database username, password and hostname to connect with it.
 2. Node.js should be installed in your machine.
 
-###Steps
+### Steps
 
 1. Clone the git repo and open in vs code or any other editor.
 2. Use "npm start" command in terminal to install all necessary packages.
