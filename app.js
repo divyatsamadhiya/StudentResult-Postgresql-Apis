@@ -11,7 +11,7 @@ const server = async () => {
     try {
         await sequelize
             .authenticate()
-            .then(() => console.log("connected to mysql database"))
+            .then(() => console.log("connected to postgres database"))
             .catch((error) => console.log(error));
         await sequelize
             .sync({ force: false })
